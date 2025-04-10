@@ -1,4 +1,5 @@
 import 'package:ecommerce/core/configs/theme/app_theme.dart';
+import 'package:ecommerce/presentation/splash/pages/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: AppTheme.appTheme,
-      home: Scaffold(),
+      home: SplashPage(),
     );
   }
 }
